@@ -6,6 +6,8 @@ A single Python CLI for DNS lookups, Google dork queries, everyday encoding, pro
 
 **Authorized use only.** Point reconkit at domains, proxies, and addresses you own or are allowed to investigate. It is a local helper for your own targets, not a scanner for networks you do not have permission to check.
 
+**Social preview.** Upload [docs/reconkit-social.jpg](docs/reconkit-social.jpg) under Settings > Social preview on GitHub.
+
 ## Install
 
 Python 3.9 or newer. From a clone of this repo:
