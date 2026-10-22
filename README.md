@@ -1,3 +1,5 @@
+![reconkit banner](docs/reconkit-banner.jpg)
+
 # reconkit
 
 A single Python CLI for DNS lookups, Google dork queries, everyday encoding, proxy checks, and IP/CIDR summaries.
@@ -6,12 +8,14 @@ A single Python CLI for DNS lookups, Google dork queries, everyday encoding, pro
 
 ## Install
 
-Python 3.9 or newer.
+Python 3.9 or newer. From a clone of this repo:
 
 ```bash
 python -m pip install .
 reconkit --help
 ```
+
+Virtualenv setup for Linux, macOS, and Windows, plus timeout and dependency troubleshooting, is in [INSTALL.md](INSTALL.md).
 
 To run the tests:
 
