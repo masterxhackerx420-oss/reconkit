@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reconkit"
+version = "0.1.0"
+description = "Small recon CLI for DNS, dork queries, encoding, proxy checks, and IP/CIDR lookups."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "dnspython>=2.4",
+    "requests>=2.31",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+reconkit = "reconkit.cli:main"
+
+[tool.setuptools]
+packages = ["reconkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
